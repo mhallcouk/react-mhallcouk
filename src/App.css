@@ -7,6 +7,7 @@ body {
 
 .App {
   text-align: center;
+  height: 100%;
 }
 
 /*========= Menu Bar and Links =======*/
@@ -62,4 +63,35 @@ body {
   clear: both;
   float: left;
   margin-top: 5px;
+}
+
+/*======= Content ========*/
+
+#content {
+  background-color: #39C1AC;
+  height: 900px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#content-container {
+  width: 700px;
+  height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#content-container p {
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 400px;
+  padding-bottom: auto;
+  padding-top: 16;
+  font-family: Roboto;
+  font-size: 2rem;
 }

@@ -6,7 +6,8 @@ class MenuBar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      visible: false
+      visible: false,
+      displayOption: 1
     }
 }
 
@@ -20,11 +21,16 @@ class MenuBar extends Component {
     }
   }
 
+  handleOptionClick(option) {
+    this.setState({displayOption: option});
+    console.log(this.state.displayOption);
+  }
+
   render() {
     var dropDown = this.state.visible ? <div id="drop-down">
-      <p>Menu Option 1</p>
-      <p>Menu Option 2</p>
-      <p>Menu Option 3</p>
+      <p onClick={() => this.handleOptionClick(1)}>Menu Option 1</p>
+      <p onClick={() => this.handleOptionClick(2)}>Menu Option 2</p>
+      <p onClick={() => this.handleOptionClick(3)}>Menu Option 3</p>
     </div> : null;
 
     return(
