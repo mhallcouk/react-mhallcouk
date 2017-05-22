@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower|Roboto:300|Open+Sans+Condensed:300);
+
 body {
   padding: 0;
   margin: 0;
@@ -9,17 +11,53 @@ body {
 
 #menu-bar {
   background-color: black;
-  height: 50px;
+  height: 60px;
   width: 100%;
   padding: 0;
   margin: 0;
 }
 
+#menu-bar-container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #menu-button {
   height: 40px;
   width: 40px;
-  margin-top: 5px;
+  margin-top: 10px;
   background-color: #39C1AC;
   border: 0;
   border-radius: 5%;
+  float: left;
+}
+
+#menu-logo {
+  height: 30px;
+  width: 28px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#drop-down p {
+  color: white;
+  margin-top: 0;
+  padding-top: 10px;
+  font-family: Roboto;
+}
+
+#drop-down {
+  height: 150px;
+  width: 120px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  float: left;
+  margin-top: 5px;
 }
