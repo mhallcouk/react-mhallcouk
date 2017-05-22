@@ -1,13 +1,12 @@
 import React, {Component} from "react";
 
 
-
 class MenuBar extends Component {
   constructor(props) {
     super(props);
     this.state = {
       visible: false,
-      displayOption: 1
+      displayOption: 2
     }
 }
 

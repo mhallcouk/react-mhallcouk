@@ -67,7 +67,7 @@ body {
 
 /*======= Content ========*/
 
-#content {
+.content {
   background-color: #39C1AC;
   height: 900px;
   width: 100%;
@@ -75,7 +75,17 @@ body {
   margin: 0;
 }
 
-#content-container {
+#con2 {
+  background-color: #00BFFF;
+}
+
+#con3 {
+  background-color: #DC143C;
+}
+
+00 FF 7F
+
+.content-container {
   width: 700px;
   height: 900px;
   margin-left: auto;
@@ -85,7 +95,7 @@ body {
   padding-right: 10px;
 }
 
-#content-container p {
+.content-container p {
   color: white;
   margin-top: auto;
   margin-bottom: auto;

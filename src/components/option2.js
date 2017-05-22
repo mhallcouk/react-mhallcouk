@@ -2,7 +2,7 @@ import React, {Component} from "react";
 
 
 
-class Option1 extends Component {
+class Option2 extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -12,9 +12,9 @@ class Option1 extends Component {
 
   render() {
     return(
-      <div className="content">
+      <div id="con2" className="content">
         <div className="content-container">
-          <p>Option 1 Selected</p>
+          <p>Option 2 Selected</p>
         </div>
       </div>
     );
@@ -23,4 +23,4 @@ class Option1 extends Component {
 }
 
 
-export default Option1;
+export default Option2;
