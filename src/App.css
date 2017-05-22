@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+#menu-bar {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#menu-button {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+  background-color: #39C1AC;
+  border: 0;
+  border-radius: 5%;
+}
