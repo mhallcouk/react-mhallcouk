@@ -14,7 +14,7 @@ body {
 
 #menu-bar {
   background-color: black;
-  height: 60px;
+  height: 70px;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -30,39 +30,44 @@ body {
 }
 
 #menu-button {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   margin-top: 10px;
   background-color: #39C1AC;
   border: 0;
-  border-radius: 5%;
+  border-radius: 5px;
   float: left;
 }
 
 #menu-logo {
-  height: 30px;
-  width: 28px;
-  margin: 0;
-  padding: 0;
-  position: relative;
+  display: block;
+  margin: auto;
+  width: 100%;
 }
 
-#drop-down p {
-  color: white;
-  margin-top: 0;
-  padding-top: 10px;
-  font-family: Roboto;
-}
 
 #drop-down {
-  height: 150px;
+  height: 120px;
   width: 120px;
   background-color: black;
   margin-left: auto;
   margin-right: auto;
   clear: both;
   float: left;
-  margin-top: 5px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.menu-option {
+  color: white;
+  height: 30px;
+  padding-top: 10px;
+  font-family: Roboto;
+}
+
+.menu-option:hover {
+  background-color: #555;
+  cursor: pointer;
 }
 
 /*======= Content ========*/
@@ -87,7 +92,7 @@ body {
 
 .content-container {
   width: 700px;
-  height: 900px;
+  height: 700px;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;

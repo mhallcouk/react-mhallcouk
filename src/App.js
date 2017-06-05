@@ -10,30 +10,32 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      displayOption:  1
+      displayOption:  <Option1 />
+    }
+  }
+
+  displayScreen(option) {
+    switch (option) {
+      case 1:
+        this.setState({displayOption:<Option1 />});
+        break;
+      case 2:
+        this.setState({displayOption:<Option2 />});
+        break;
+      case 3:
+        this.setState({displayOption:<Option3 />});
+        break;
+      default:
+        this.setState({displayOption:<Option1 />});
+        break;
     }
   }
 
   render() {
-    var display = 2;
-    switch (this.state.displayOption) {
-      case 1:
-        display = <Option1 />;
-        break;
-      case 2:
-        display = <Option2 />;
-        break;
-      case 3:
-        display = <Option3 />;
-        break;
-      default:
-        display = <Option1 />;
-        break;
-    }
     return (
       <div className="App">
-        <MenuBar />
-        {display}
+        <MenuBar displayChange={(option) => this.displayScreen(option)} />
+        {this.state.displayOption}
       </div>
     );
   }
