@@ -23,7 +23,15 @@ class Option1 extends Component {
             text="A React based video player that uses the YouTube API."
             logo={require("../assets/reactnative.png")}
             link="https://mhall-video-player.herokuapp.com/"/>
-            <hr></hr>
+            <div className="divider"></div>
+          <Showcase
+            title="MHall.xyz"
+            picture1={require("../assets/mhallweb1.png")}
+            picture2={require("../assets/mhallweb2.PNG")}
+            text="This website has been made in React and hosted on Heroku using a BuildPack."
+            logo={require("../assets/reactnative.png")}
+            link="http://mhall.xyz/"/>
+            <hr className="divider"></hr>
           <Showcase
             title="React Stopwatch"
             picture1={require("../assets/reactstopwatch1.png")}
@@ -31,7 +39,7 @@ class Option1 extends Component {
             text="A React based stopwatch adapted from a React Native project."
             logo={require("../assets/reactnative.png")}
             link="https://mhall-react-stopwatch.herokuapp.com/"/>
-            <hr></hr>
+            <hr className="divider"></hr>
         </div>
       </div>
     );

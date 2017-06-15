@@ -10,6 +10,7 @@ class SectionHeader extends Component {
       <div className="row">
         <div className="col-md-12 section-header">
           {this.props.header}
+          <hr className="divider" id="section-divider"></hr>
         </div>
       </div>
     );

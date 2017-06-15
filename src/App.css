@@ -78,7 +78,7 @@ body {
 /*======= Content ========*/
 
 .content {
-  background-color: #DC143C;
+  background-color: #696969;
   height: auto;
   width: 100%;
   padding: 0;
@@ -86,14 +86,12 @@ body {
 }
 
 #con2 {
-  background-color: #39C1AC;
+  background-color: #696969;
 }
 
 #con3 {
-  background-color: #00BFFF;
+  background-color: #696969;
 }
-
-00 FF 7F
 
 .content-container {
   width: 700px;
@@ -163,6 +161,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  /*border: 1px black solid;*/
 }
 
 .showcase p {
@@ -175,7 +174,21 @@ body {
   max-width: 700px;
 }
 
-hr {
+.divider {
   margin-left: 20px;
   margin-right: 20px;
+  width: auto;
+  height: 1px;
+  background: linear-gradient(to right, orange , magenta);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  border: none;
+}
+
+#section-divider {
+  max-width: 80%;
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
 }
