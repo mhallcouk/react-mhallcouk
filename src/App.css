@@ -122,6 +122,14 @@ body {
   font-size: 3rem;
   height: 100px;
   padding-top: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .showcase {
