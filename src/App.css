@@ -139,9 +139,18 @@ body {
   padding-top: 100px;
 }
 
+.showcase h3 {
+  float: left;
+}
+
 .showcase div {
   height: 300px;
-  padding: 20px;
+  padding: 10px;
+}
+
+.showcase-title {
+  height: 100px;
+  padding-left: 10px;
 }
 
 .showcase .second-row {
