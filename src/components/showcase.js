@@ -7,12 +7,22 @@ class Showcase extends Component {
 
   render(){
     return(
-      <div className="row showcase">
-        <div className="left-div col-md-6">
-          Left
+      <div>
+        <div className="row showcase">
+          <div className="left-div col-md-6">
+            {this.props.picture1}
+          </div>
+          <div className="right-div col-md-6">
+            {this.props.picture2}
+          </div>
         </div>
-        <div className="right-div col-md-6">
-          Right
+        <div className="row showcase">
+          <div className="left-div col-md-6">
+            {this.props.text}
+          </div>
+          <div className="right-div col-md-6">
+            {this.props.link}
+          </div>
         </div>
       </div>
     );

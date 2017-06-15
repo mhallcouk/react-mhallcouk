@@ -16,7 +16,12 @@ class Option1 extends Component {
       <div className="content">
         <SectionHeader header="Showcase." />
         <div className="container">
-          <Showcase />
+          <Showcase
+            picture1=""
+            picture2=""
+            text=""
+            logo=""
+            link=""/>
         </div>
       </div>
     );
