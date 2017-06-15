@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-
+import SectionHeader from "./section-header";
+import Showcase from "./showcase";
 
 
 class Option1 extends Component {
@@ -13,8 +14,9 @@ class Option1 extends Component {
   render() {
     return(
       <div className="content">
-        <div className="content-container">
-          <p>Option 1 Selected</p>
+        <SectionHeader header="Showcase." />
+        <div className="container">
+          <Showcase />
         </div>
       </div>
     );

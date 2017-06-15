@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-
+import SectionHeader from "./section-header";
 
 
 class Option2 extends Component {
@@ -13,6 +13,7 @@ class Option2 extends Component {
   render() {
     return(
       <div id="con2" className="content">
+        <SectionHeader header="Section 2." />
         <div className="content-container">
           <p>Option 2 Selected</p>
         </div>

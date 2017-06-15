@@ -27,9 +27,9 @@ class MenuBar extends Component {
 
   render() {
     var dropDown = this.state.visible ? <div id="drop-down">
-      <div className="menu-option" onClick={() => this.props.displayChange(1)}>Menu Option 1</div>
+      <div className="menu-option" onClick={() => this.props.displayChange(1)}>Showcase</div>
       <div className="menu-option" onClick={() => this.props.displayChange(2)}>Menu Option 2</div>
-      <div className="menu-option" onClick={() => this.props.displayChange(3)}>Menu Option 3</div>
+      <div className="menu-option" onClick={() => this.props.displayChange(3)}>Contact</div>
     </div> : null;
 
     return(

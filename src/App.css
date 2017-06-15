@@ -55,14 +55,19 @@ body {
   clear: both;
   float: left;
   margin-top: 10px;
-  padding-top: 10px;
+  padding-top: 0px;
+  position: absolute;
+  top: 60px;
+  z-index: 10;
 }
 
 .menu-option {
   color: white;
-  height: 30px;
+  height: 40px;
   padding-top: 10px;
+  font-size: 1.5rem;
   font-family: Roboto;
+  padding-bottom: 10px;
 }
 
 .menu-option:hover {
@@ -109,4 +114,24 @@ body {
   padding-top: 16;
   font-family: Roboto;
   font-size: 2rem;
+}
+
+.section-header {
+  color: white;
+  font-family: Roboto;
+  font-size: 2rem;
+  height: 200px;
+  padding-top: 100px;
+}
+
+.showcase {
+  color: white;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  padding-top: 100px;
+}
+
+.showcase div {
+  height: 300px;
+  padding: 20px;
 }
