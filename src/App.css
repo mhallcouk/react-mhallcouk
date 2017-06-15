@@ -78,19 +78,19 @@ body {
 /*======= Content ========*/
 
 .content {
-  background-color: #39C1AC;
-  height: 900px;
+  background-color: #DC143C;
+  height: auto;
   width: 100%;
   padding: 0;
   margin: 0;
 }
 
 #con2 {
-  background-color: #00BFFF;
+  background-color: #39C1AC;
 }
 
 #con3 {
-  background-color: #DC143C;
+  background-color: #00BFFF;
 }
 
 00 FF 7F
@@ -119,8 +119,8 @@ body {
 .section-header {
   color: white;
   font-family: Roboto;
-  font-size: 2rem;
-  height: 200px;
+  font-size: 3rem;
+  height: 100px;
   padding-top: 100px;
 }
 
@@ -134,4 +134,31 @@ body {
 .showcase div {
   height: 300px;
   padding: 20px;
+}
+
+.showcase .second-row {
+  height: 150px;
+}
+
+.showcase img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showcase p {
+  padding-top: auto;
+  padding-bottom: auto;
+  font-size: 2rem;
+}
+
+.container {
+  max-width: 700px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
 }

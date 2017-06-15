@@ -17,11 +17,11 @@ class Option1 extends Component {
         <SectionHeader header="Showcase." />
         <div className="container">
           <Showcase
-            picture1=""
-            picture2=""
-            text=""
-            logo=""
-            link=""/>
+            picture1={require("../assets/reactstopwatch1.png")}
+            picture2={require("../assets/reactstopwatch2.png")}
+            text="This is a React based stopwatch adapted from a React Native project."
+            logo={require("../assets/reactnative.png")}
+            link="https://mhall-react-stopwatch.herokuapp.com/"/>
         </div>
       </div>
     );

@@ -9,20 +9,21 @@ class Showcase extends Component {
     return(
       <div>
         <div className="row showcase">
-          <div className="left-div col-md-6">
-            {this.props.picture1}
+          <div className="left-div col-sm-6">
+            <img src={this.props.picture1} />
           </div>
-          <div className="right-div col-md-6">
-            {this.props.picture2}
+          <div className="right-div col-sm-6">
+            <img src={this.props.picture2} />
           </div>
         </div>
         <div className="row showcase">
-          <div className="left-div col-md-6">
-            {this.props.text}
+          <div className="left-div col-sm-6 second-row">
+            <p>{this.props.text}</p>
           </div>
-          <div className="right-div col-md-6">
-            {this.props.link}
+          <div className="right-div col-sm-6 second-row">
+            <a href={this.props.link}><img src={this.props.logo} /></a>
           </div>
+          <hr/>
         </div>
       </div>
     );

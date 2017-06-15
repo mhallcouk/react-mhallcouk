@@ -7,8 +7,10 @@ class SectionHeader extends Component {
 
   render(){
     return(
-      <div className="col-md-12 section-header">
-        {this.props.header}
+      <div className="row">
+        <div className="col-md-12 section-header">
+          {this.props.header}
+        </div>
       </div>
     );
   }
