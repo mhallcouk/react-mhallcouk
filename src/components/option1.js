@@ -32,6 +32,15 @@ class Option1 extends Component {
             logo={require("../assets/reactnative.png")}
             link="http://mhall.xyz/"/>
             <hr className="divider"></hr>
+            <Showcase
+              title="React Weather"
+              picture1={require("../assets/reactweather1.png")}
+              picture2={require("../assets/reactweather2.png")}
+              text="A 5 day weather trend app that uses an the OpenWeatherMap API."
+              logo={require("../assets/reactnative.png")}
+              link="https://mhall-weather.herokuapp.com/"/>
+              <hr className="divider"></hr>
+
           <Showcase
             title="React Stopwatch"
             picture1={require("../assets/reactstopwatch1.png")}
