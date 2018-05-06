@@ -14,7 +14,7 @@ class Option1 extends Component {
   render() {
     return(
       <div className="content">
-        <SectionHeader header="Showcase." />
+        <SectionHeader header="Showcase..." />
         <div className="container">
           <Showcase
             title="React Video Player"
