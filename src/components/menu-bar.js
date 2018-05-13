@@ -27,15 +27,15 @@ class MenuBar extends Component {
 
   render() {
     var dropDown = this.state.visible ? <div id="drop-down">
-      <div className="menu-option" onClick={() => this.props.displayChange(1)}>Showcase</div>
-      <div className="menu-option" onClick={() => this.props.displayChange(2)}>Menu Option 2</div>
-      <div className="menu-option" onClick={() => this.props.displayChange(3)}>Contact</div>
+      <div className="menu-option top" onClick={() => this.props.displayChange(1) & this.handleMenuClick()}>Showcase</div>
+      <div className="menu-option" onClick={() => this.props.displayChange(2) & this.handleMenuClick()}>Menu Option 2</div>
+      <div className="menu-option bottom" onClick={() => this.props.displayChange(3) & this.handleMenuClick()}>Contact</div>
     </div> : null;
 
     return(
       <div id="menu-bar">
         <div id="menu-bar-container">
-        <button id="menu-button" onClick={() => this.handleMenuClick()}><img id="menu-logo" src={require('../assets/menu.png')}/></button>
+        <button id="menu-button" onClick={() => this.handleMenuClick()}><img id="menu-logo" src={require('../assets/menuwhite.png')}/></button>
         {dropDown}
         </div>
       </div>

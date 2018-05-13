@@ -36,7 +36,7 @@ body {
   margin-top: 10px;
   background-color: #f73859;
   border: 0;
-  border-radius: 5px;
+  border-radius: 10px;
   float: left;
 }
 
@@ -60,6 +60,7 @@ body {
   position: absolute;
   top: 60px;
   z-index: 10;
+  border-radius: 10px;
 }
 
 .menu-option {
@@ -75,6 +76,22 @@ body {
   background-color: #dbedf3;
   cursor: pointer;
   color: black;
+}
+
+.menu-option:hover.top {
+  background-color: #dbedf3;
+  cursor: pointer;
+  color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.menu-option:hover.bottom {
+  background-color: #dbedf3;
+  cursor: pointer;
+  color: black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /*======= Content ========*/
@@ -170,6 +187,10 @@ body {
   padding-top: auto;
   padding-bottom: auto;
   font-size: 2rem;
+}
+
+.showcase img {
+  border-radius: 10px;
 }
 
 .container {
