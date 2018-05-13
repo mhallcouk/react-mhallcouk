@@ -3,7 +3,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #696969;
+  background-color: #3a0088;
 }
 
 .App {
@@ -14,7 +14,7 @@ body {
 /*========= Menu Bar and Links =======*/
 
 #menu-bar {
-  background-color: black;
+  background-color: #930077;
   height: 70px;
   width: 100%;
   padding: 0;
@@ -34,7 +34,7 @@ body {
   height: 50px;
   width: 50px;
   margin-top: 10px;
-  background-color: #39C1AC;
+  background-color: #ffbd39;
   border: 0;
   border-radius: 5px;
   float: left;
@@ -50,7 +50,7 @@ body {
 #drop-down {
   height: 120px;
   width: 120px;
-  background-color: black;
+  background-color: #e61c5d;
   margin-left: auto;
   margin-right: auto;
   clear: both;
@@ -72,14 +72,14 @@ body {
 }
 
 .menu-option:hover {
-  background-color: #555;
+  background-color: #ffbd39;
   cursor: pointer;
 }
 
 /*======= Content ========*/
 
 .content {
-  background-color: #696969;
+  background-color: #3a0088;
   height: auto;
   width: 100%;
   padding: 0;
@@ -87,11 +87,11 @@ body {
 }
 
 #con2 {
-  background-color: #696969;
+  background-color: #3a0088;
 }
 
 #con3 {
-  background-color: #696969;
+  background-color: #3a0088;
 }
 
 .content-container {
