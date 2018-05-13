@@ -17,6 +17,14 @@ class Option1 extends Component {
         <SectionHeader header="Showcase." />
         <div className="container">
           <Showcase
+            title="mhallxyz Android App"
+            picture1={require("../assets/mhallxyz1.png")}
+            picture2={require("../assets/mhallxyz3.png")}
+            text="The mhallxyz app. What's new and current, projects and new apps."
+            logo={require("../assets/google-play-badge.png")}
+            link="https://play.google.com/store/apps/details?id=xyz.mhall.mhallxyz"/>
+            <div className="divider"></div>
+          <Showcase
             title="React Video Player"
             picture1={require("../assets/videoplayer1.png")}
             picture2={require("../assets/videoplayer2.PNG")}
