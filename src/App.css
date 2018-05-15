@@ -235,3 +235,48 @@ body {
 .social-row {
   padding-top: 80px;
 }
+
+.project {
+  color: white;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  padding-top: 100px;
+}
+
+.project h3 {
+  float: left;
+}
+
+.project div {
+  height: 300px;
+  padding: 10px;
+}
+
+.project-title {
+  height: 100px;
+  padding-left: 10px;
+}
+
+.project .second-row {
+  height: 150px;
+}
+
+.project img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*border: 1px black solid;*/
+}
+
+.project p {
+  padding-top: auto;
+  padding-bottom: auto;
+  font-size: 2rem;
+}
+
+.project img {
+  border-radius: 10px;
+}
+
