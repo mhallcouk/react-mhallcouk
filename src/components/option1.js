@@ -17,6 +17,14 @@ class Option1 extends Component {
         <SectionHeader header="Showcase." />
         <div className="container">
           <Showcase
+            title="SecureNotes"
+            picture1={require("../assets/securenotes1.jpg")}
+            picture2={require("../assets/securenotes2.jpg")}
+            text="Encrypted locally stored notes app with password authentication. Made with React Native."
+            logo={require("../assets/google-play-badge.png")}
+            link="https://play.google.com/store/apps/details?id=xyz.mhall.securenotes"/>
+            <div className="divider"></div>
+          <Showcase
             title="mhallxyz Android App"
             picture1={require("../assets/mhallxyz1.png")}
             picture2={require("../assets/mhallxyz3.png")}
